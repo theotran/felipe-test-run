@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 216 216" style="enable-background:new 0 0 216 216;" xml:space="preserve">
+<font horiz-adv-x="2048">
+<!-- Copyright 2014 The Heebo Project Authors. -->
+<!-- Copyright: Copyright 2017 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Heebo-Bold" units-per-em="2048" underline-position="-100" underline-thickness="100"/>
+<missing-glyph horiz-adv-x="1351" d="M1107,-555l-856,0l0,2701l856,0M454,1965l0,-89l175,0l0,-100l-178,0l0,-89l448,0l0,89l-178,0l0,100l178,0l0,89M451,1617l0,-281l448,0l0,92l-178,0l0,189M629,1428l-89,0l0,97l89,0M451,1263l0,-89l178,0l0,-100l-178,0l0,-89l270,0l0,189l178,0l0,89M810,1101l0,-179l-359,0l0,-91l448,0l0,270M629,771l0,-151l92,0l0,62l89,0l0,-127l-270,0l0,216l-89,0l0,-305l448,0l0,305M451,304l0,-305l448,0l0,305M810,88l-270,0l0,127l270,0M451,-63l0,-90l189,0l-189,-126l0,-90l448,0l0,90l-275,0l189,126l86,0l0,90z"/>
+<glyph unicode="W" horiz-adv-x="1789" d="M1758,1456l-319,-1456l-201,0l-117,0l-226,946l-225,-946l-180,0l-138,0l-320,1456l312,0l189,-1012l229,1012l167,0l99,0l230,-1012l188,1012z"/>
+<glyph unicode="h" horiz-adv-x="1149" d="M1046,678l0,-678l-302,0l0,680C744,745 730,791 703,818C675,845 633,858 576,858C495,858 437,829 402,770l0,-770l-302,0l0,1536l302,0l0,-570C438,1010 480,1044 529,1067C577,1090 630,1102 687,1102C800,1102 889,1068 952,1001C1015,934 1046,826 1046,678z"/>
+<glyph unicode="k" horiz-adv-x="1101" d="M511,426l-101,-101l0,-325l-302,0l0,1537l302,0l0,-841l50,65l271,321l362,0l-388,-449l419,-633l-346,0z"/>
+</font>
+
+	<g>
+	<path style="fill:#612A60;" d="M106.8,19c50.6,0,91.8,41.2,91.8,91.8s-41.2,91.8-91.8,91.8S15,161.3,15,110.8S56.2,19,106.8,19
+		 M106.8,7C49.5,7,3,53.5,3,110.8s46.5,103.8,103.8,103.8S210.5,168,210.5,110.8S164,7,106.8,7L106.8,7z"/>
+</g>
+<g>
+	<g>
+		<rect x="53.4" y="158.2" style="fill:#612A60;" width="109.8" height="3.8"/>
+	</g>
+	<g>
+		<rect x="53.4" y="146.5" style="fill:#612A60;" width="109.8" height="3.8"/>
+	</g>
+	<g>
+		<polygon style="fill:#612A60;" points="43.6,149.8 35.4,149.8 39.2,154.2 35.4,158.6 43.6,158.6 49.2,154.2 		"/>
+	</g>
+	<g>
+		<rect x="44.4" y="153.4" style="fill:#612A60;" width="126.3" height="2"/>
+	</g>
+	<g>
+		<path style="fill:#612A60;" d="M169.4,159.9v-10.8l11.2,5.4L169.4,159.9z M171.4,152.3v4.4l4.6-2.2L171.4,152.3z"/>
+	</g>
+	<g>
+		<rect x="91" y="149.3" style="fill:#612A60;" width="37" height="10.3"/>
+	</g>
+</g>
+<path style="fill:#612A60;" d="M35.1,75.7c-2.7,0-4.8,2.3-4.8,5.2v31.7c0,2.9,2.2,5.2,4.8,5.2H57V75.7H35.1z"/>
+<path style="fill:#612A60;" d="M177.7,117.9c2.7,0,4.8-2.3,4.8-5.2V81c0-2.9-2.2-5.2-4.8-5.2h-21.9v42.2H177.7z"/>
+<rect x="61.9" y="75.7" style="fill:#612A60;" width="26.9" height="42.2"/>
+<rect x="93.2" y="75.7" style="fill:#612A60;" width="27.1" height="42.2"/>
+<rect x="125" y="75.7" style="fill:#612A60;" width="25.8" height="42.2"/>
+<text transform="matrix(1 0 0 1 84.8433 139.8936)" style="fill:#612A60; font-family:'Heebo-Bold'; font-size:20.3829px; letter-spacing:2;">kWh</text>
+</svg>

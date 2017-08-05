@@ -1,0 +1,875 @@
+.chartContainer {
+  /*border-radius: 9px;*/
+  padding: 10px;
+  background: #fff;
+}
+
+.contentRyion, .content-wrapper {
+  /*background: #f6f6f6;*/
+  background: #ffffff;
+}
+
+.react-bs-table-container {
+  background: #fff;
+  /*border-radius: 9px;*/
+  /*padding: 10px;*/
+  margin-top: 15px;
+}
+
+.table-header-icon {
+  padding-left: 10px;
+}
+
+.load-div {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.comm-jobs-nav {
+  background-color: #6E828C;
+}
+
+.comm-jobs-nav > li > a {
+  color: #fff;
+}
+
+.comm-jobs-panel-heading, .comm-jobs-message {
+  text-align: center;
+}
+
+.comm-jobs-form-btn {
+  margin-bottom: 15px;
+}
+
+.table-add-button {
+  margin-left: 27px;
+  /*margin-bottom: -115px;*/
+}
+
+.googleMapsLink {
+  margin-left: 6px;
+}
+
+.sidebar-menu > li {
+  z-index: 10000;
+}
+@media screen and (max-height: 738px) {
+  .sidebarLogo {
+    /*display: none;
+    visibility: hidden;*/
+    opacity: 0.1;
+    transition: visibility 1s, opacity 2.5s linear;
+  }
+}
+
+@media screen and (min-height: 738px) {
+  .sidebarLogo {
+    /*display: none;
+    visibility: hidden;*/
+    opacity: 1;
+    transition: visibility 1s, opacity 2.5s linear;
+  }
+}
+
+.sidebarLogo {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  background-image: url('../../../images/MenuBar_check3.png');
+}
+
+.customIconsSidebar {
+  height: 1.35em;
+  padding-right: 15px;
+  margin-left: -5px;
+}
+
+.customIconsLoader {
+  height: 3rem;
+  margin-bottom: 20px;
+}
+
+.timeButtons {
+  padding-top: 300px
+}
+
+.comm-jobs-header {
+  margin-bottom: 0em;
+}
+
+.timesheet-control {
+  text-align: center;
+}
+
+#root > div > div > section > div > div > div > div:nth-child(2) > div > div:nth-child(2) {
+  margin-top: -15px;
+}
+
+.tabHeader {
+  /*margin-left: 5px;*/
+  margin-bottom: 10px;
+  border-bottom: 4px solid #d6e3e1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tabHeaderText {
+  color: #612A60;
+  margin-bottom: -5px;
+}
+
+.pageHeader {
+  /*margin-left: 5px;*/
+  margin-bottom: 10px;
+  border-bottom: 4px solid #d6e3e1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*.tabHeaderText, .tabHeaderLogo {
+  margin: 0px;
+}*/
+
+.pageHeaderText {
+  color: #767676;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.mainContentWrapper {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.projectTabIcon {
+  padding-bottom: 10px;
+}
+
+/*custom style for the dropdown icons are on semantic.css line 29458 and looks like this*/
+
+/*.ui.selection.dropdown > .search.icon,
+.ui.selection.dropdown > .delete.icon,
+.ui.selection.dropdown > .dropdown.icon {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  height: auto;
+  line-height: 1.21428571em;
+  top: 0.78571429em;
+  right: 1em;
+  z-index: 3;
+  margin: -0.78571429em;
+  padding: 0.78571429em;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+
+      color: #fff;
+      background-color: #00b5ad;
+      margin-right: -12px;
+      margin-top: -10px;
+      height: 37px;
+}*/
+
+
+/*.tableAddButton {
+  margin-left: 10px;
+}*/
+
+.paddedImage {
+  padding-bottom: 6px;
+}
+
+.lineChartHeader {
+      margin-left: 15px;
+      margin-bottom: 10px;
+      border-bottom: 4px solid #d6e3e1;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+}
+.donutChartHeader {
+      margin-left: 10px;
+      margin-bottom: 10px;
+      border-bottom: 4px solid #d6e3e1;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.latestJobsHeader {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;
+      border-bottom: 4px solid #d6e3e1;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.taskLink {
+  color: #612A60;
+}
+
+/*Login page*/
+
+#loginPageId {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-color: white;
+}
+
+
+
+  #loginPageFormBackground {
+    height: 100vh;
+    width: 200vh;
+    position: absolute;
+    background: url('./../../../images/RYION_UI_launch_BG.png') no-repeat center;
+    background-size:cover
+  }
+
+  #loginPageFormCover {
+    height: 100vh;
+    width: 200vh;
+    background: url('./../../../images/RYION_UI_Login_BG_Whiteblue.png') no-repeat center;
+    background-size:cover
+    background-size: cover;
+    position: absolute;
+    -webkit-animation: test 2s ease forwards;
+    animation: test 2s ease forwards;
+    animation-delay: 2s;
+    margin-left: 200vh;
+  }
+
+  #loginPageCoverLogo {
+    height: 45vh;
+    width: 65vh;
+    position: absolute;
+    top: 27%;
+    left: 34%;
+    /*background: url('./../../../images/RYION_UI_launch_Logo.png') no-repeat center;*/
+    -webkit-animation: logo 2s ease forwards;
+    animation: logo 2s ease forwards;
+    animation-delay: 2s;
+  }
+
+  #loginPageCoverLogo > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  @keyframes logo {
+    0% { width: 65vh; }
+    100% { width: 65vh;
+           opacity: 1;
+           left: 9%;
+         }
+  }
+
+  @-webkit-keyframes logo {
+    0% { width: 65vh; }
+    100% { width: 65vh;
+           opacity: 1;
+           left: 9%;
+         }
+  }
+
+  @keyframes fade {
+    0% { width: 0vh; opacity: 0; }
+    25% { opacity: 0; }
+    50% { width: ;opacity: 0;  }
+    100% { width: 100vh; opacity: 1;  }
+  }
+
+  @-webkit-keyframes fade {
+    0% { width: 0vh; opacity: 0; }
+    25% { opacity: 0; }
+    50% { width: ;opacity: 0;  }
+    100% { width: 100vh; opacity: 1;  }
+  }
+
+  @keyframes test {
+    0% { margin-left: 200vh }
+    100% { margin-left: 0vh; }
+  }
+
+  @-webkit-keyframes test {
+    0% { margin-left: 200vh }
+    100% { margin-left: 0vh; }
+  }
+
+  #loginPageFormContainer {
+    height: 100vh;
+    width: 100vh;
+    float: right;
+    clear: both;
+    position: relative;
+    animation: fade 2.3s ease forwards;
+    animation-delay: 2s;
+    opacity: 0;
+  }
+
+  #loginPageForm {
+    width: 50vh;
+    height: 25vh;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(60%, -35%);
+    text-align: center;
+  }
+
+
+
+
+.login-link > span {
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.login-link > span > a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.emptySpace {
+  height: 100px;
+}
+
+.selectPlanButton {
+  text-align: center;
+}
+
+.registerInputs {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#bodyDiv > div:nth-child(10) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+#bodyDiv > div:nth-child(13) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+#bodyDiv > div:nth-child(17) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+#bodyDiv > div:nth-child(11) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+#bodyDiv > div:nth-child(14) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+#bodyDiv > div:nth-child(12) > div > div:nth-child(1) > div > div > div:nth-child(2) {
+  overflow-y: visible !important;
+}
+
+.map {
+  height: 300px;
+}
+
+@media screen and (min-width: 1024px){
+    .map {
+        height: 500px;
+    }
+}
+
+
+.registerPageHeader {
+  padding-left: 6px;
+}
+
+#PaymentPageId {
+  text-align: center;
+      padding-top: 15px;
+      padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.group {
+  background: white;
+  box-shadow: 0 7px 14px 0 rgba(49,49,93,0.10),
+              0 3px 6px 0 rgba(0,0,0,0.08);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+label {
+  position: relative;
+  color: #8898AA;
+  font-weight: 300;
+  /*height: 40px;
+  line-height: 40px;*/
+  /*margin-left: 20px;*/
+  display: block;
+}
+
+.group label:not(:last-child) {
+  border-bottom: 1px solid #F0F5FA;
+}
+
+label > span {
+  width: 20%;
+  text-align: right;
+  float: left;
+}
+
+.field {
+  background: transparent;
+  font-weight: 300;
+  border: 0;
+  color: #31325F;
+  outline: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: text;
+  width: 70%;
+  height: 40px;
+  float: right;
+  font-size: 14px;
+}
+
+.field::-webkit-input-placeholder { color: #CFD7E0; }
+.field::-moz-placeholder { color: #CFD7E0; }
+.field:-ms-input-placeholder { color: #CFD7E0; }
+
+
+.outcome {
+  float: left;
+  width: 100%;
+  padding-top: 8px;
+  min-height: 24px;
+  text-align: center;
+}
+
+.success, .error {
+  display: none;
+  font-size: 13px;
+}
+
+.success.visible, .error.visible {
+  display: inline;
+}
+
+.error {
+  color: #E4584C;
+}
+
+.success {
+  color: #666EE8;
+}
+
+.success .token {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.StripeElement {
+  width: 500px;
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border-radius: 4px;
+  background: white;
+}
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+
+
+
+
+/*PRICING SHEET*/
+.whole {
+  /*display: inline-block;*/
+  padding: 10px;
+}
+
+.type {
+  width: 100%;
+  /*border-radius: 5px 5px 0px 0px;*/
+  background-color: #eac80d;
+  height: 62px;
+  border-bottom: 3px solid #bfa30c;
+}
+
+.type p {
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.plan {
+  width: 100%;
+  background-color: #f1f7f8;
+  /*border-radius: 0px 0px 5px 5px;*/
+  font-style: condensed;
+  font-size: 16px;
+  color: #6d7e8f;
+  text-align: center;
+  padding-top: 10px;
+}
+.simple {
+  background-color: #ADDCCF;
+  border-bottom: 3px solid #ADDCCF;
+}
+.standard {
+  background-color:  #5FC8D7;
+  border-bottom: 3px solid  #5FC8D7;
+}
+
+.ultimate {
+  background-color:  #00B1B3;
+  border-bottom: 3px solid  #00B1B3;
+}
+
+.month {
+  font-size: 14px;
+  color: #9ba7b4;
+  padding: 0px;
+  margin: 8px;
+}
+
+.price {
+  height: 80px;
+}
+
+.cart {
+  color: #6d7e8f;
+  position: relative;
+  top: 16px;
+}
+
+.selected {
+  background-color: #1F1B36;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  border-bottom: 1px solid #494a5a;
+  padding-bottom: 20px;
+      margin-bottom: 15px;
+}
+
+.header span {
+  font-size: 16px;
+}
+
+.pricingli {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 47px;
+    line-height: 25px;
+}
+
+.pricingul {
+  list-style: none;
+  font-size: 15px;
+  color: #9095aa;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ryion-brandTopBar {
+  padding-top: 9px;
+  padding-left: 35px;
+}
+
+.linksPageLink {
+  color: #00b1b3;
+      /*font-size: 16px;*/
+}
+
+.latestJobsViewAll {
+      float: right;
+      margin-right: 7px;
+}
+
+.landingBackground {
+  background: no-repeat  url('../../../images/RegisterAdminBG4.png');
+  background-size:cover
+}
+
+
+/*#verifySentPageId {
+  background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+}*/
+
+/*#registerPageId {
+  background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+}*/
+
+.verifySentButton, .AcceptInvitationButton {
+  padding-top: 20px;
+}
+
+.registerPageLabel {
+  color: #fff;
+  font-size: 12px;
+}
+
+.newCompanyRegisterContainer {
+      background-color: #fff;
+      /*border-radius: 8px;*/
+      margin-top: 80px;
+}
+
+.adminTableHeader {
+      padding-top: 25px;
+      margin-left: 10px;
+      color: #612a60;
+}
+
+.linkTagOverWhite {
+  color: blue;
+}
+
+.termsConfirmation {
+  margin-left: 15px;
+}
+
+.couponSubmit {
+      margin-top: 13px;
+      margin-bottom: 30px;
+}
+
+.upsellListItems {
+  color: #00b1b3;
+}
+
+.usageContainer {
+  padding-top: 25px;
+}
+
+/*@media screen and (max-width: 560px) {
+  .whole {
+    margin-left: 30px;
+  }
+}*/
+
+.stripelabel2 {
+  position: relative;
+  color: #8898AA;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  /*margin-left: 20px;*/
+  display: block;
+}
+
+#verifySentPageId, #verifyConfirmPageId, #registerPageId {
+  padding:20px;
+  background-color: #fff;
+}
+
+
+.mobileLoginInputs {
+  margin-top: 30px;
+}
+
+.mobileLoginHeader {
+  /*background: no-repeat  url('../../../images/mobilelogin_BG2.png');*/
+  background-color:  #612a60;
+  padding:40px;
+}
+
+.mobileLoginHeaderTeal {
+  height: 50px;
+  background-color: #00b1b3;
+}
+
+.loginPageButton {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.content-sm {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.margin-b-40 {
+    margin-bottom: 40px !important;
+}
+
+@media (max-width: 992px) {
+  .md-margin-b-30 {
+    margin-bottom: 30px !important;
+  }
+}
+
+
+/*--------------------------------------------------
+    [Radius]
+----------------------------------------------------*/
+
+.radius-3 {
+  border-radius: 3px !important;
+}
+
+.radius-10 {
+  border-radius: 10px !important;
+}
+
+
+/*--------------------------------------------------
+    [Colors]
+----------------------------------------------------*/
+
+.bg-color-sky-light {
+  background: #f7f8fa !important;
+}
+
+
+/*--------------------------------------------------
+    [Button]
+----------------------------------------------------*/
+
+.btn-dark-brd {
+  position: relative;
+  display: inline-block;
+  line-height: 1.4;
+  color: #34343c;
+  text-align: center;
+  background: transparent;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #34343c;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-dark-brd:focus, .btn-dark-brd:active:focus, .btn-dark-brd.active:focus, .btn-dark-brd.focus, .btn-dark-brd:active.focus, .btn-dark-brd.active.focus {
+  outline: none;
+}
+
+.btn-dark-brd:hover {
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.btn-dark-brd:hover, .btn-dark-brd:focus, .btn-dark-brd.focus {
+  color: #fff;
+  background: #34343c;
+  border-color: #34343c;
+  text-decoration: none;
+}
+
+.btn-dark-brd:after, .btn-dark-brd:before {
+  background: transparent;
+}
+
+.btn-dark-brd:active, .btn-dark-brd.active {
+  background-image: none;
+  outline: 0;
+}
+
+.btn-dark-brd.disabled, .btn-dark-brd[disabled],
+fieldset[disabled] .btn-dark-brd {
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+.btn-dark-brd .btn-base-element-xs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border-left: 1px solid #2b2b31;
+  padding: 6px 9px;
+}
+
+.btn-dark-brd .btn-base-element-sm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border-left: 1px solid #2b2b31;
+  padding: 9px 11px;
+}
+
+.btn-dark-brd .btn-base-element-md {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border-left: 1px solid #2b2b31;
+  padding: 12px 13px;
+}
+
+.btn-dark-brd .btn-base-element-lg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  border-left: 1px solid #2b2b31;
+  padding: 15px 15px;
+}
+
+.btn-base-sm {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 9px 22px;
+}
