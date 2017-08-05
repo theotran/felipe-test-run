@@ -37,7 +37,7 @@ class Container extends Component {
           <section className="contentRyion">
             <div className="row">
               <div className="mainContentWrapper">
-                {React.cloneElement(this.props.children)}
+                {this.props.children}
               </div>
             </div>
           </section>

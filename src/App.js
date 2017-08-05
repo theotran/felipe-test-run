@@ -258,7 +258,7 @@ class App extends Component {
         <Router history={browserHistory}>
 
           <Route path="/" component={Container} >
-            <Route path="commercial" component={JobPageWithQuery}>
+            <Route path="dashboard" component={JobPageWithQuery}>
               <IndexRoute component={ConstructionTab} />
             </Route>
             <Route path="projects" component={JobTable}>

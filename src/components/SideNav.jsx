@@ -29,7 +29,7 @@ class SideNav extends Component {
           <ul className="sidebar-menu">
 
             <li className="navItem" id="Dashboard">
-              <Link to='/' onlyActiveOnIndex activeStyle={{ background: '#fff' }}>
+              <Link to='/dashboard' onlyActiveOnIndex activeStyle={{ background: '#fff' }}>
                 {/* <i className="fa fa-dashboard popout"></i> */}
                 <img className="customIconsSidebar" role="presentation" src='/images/Dashboard_Icon.svg'/>
                 <span>Dashboard</span>
